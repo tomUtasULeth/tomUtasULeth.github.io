@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>beary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #e2fffb;">
+    <section class="header">
+        <img src="images/drinking.jpg" alt="" class="image"> 
+
+        <button id="btn-drinking" class="btn">Drinking!</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('#btn-drinking').btn();
+            </script>
+        <script>
+            $(function(){
+                $('#btn-drinking').on('click', function(){
+                    $('img').attr('src', 'images/drinking.jpg');
+                })
+            });
+            </script>
+
+        <button id="btn-sleeping" class="btn">Sleeping!</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('#btn-sleeping').btn();
+            </script>
+        <script>
+            $(function(){
+                $('#btn-sleeping').on('click', function(){
+                    $('img').attr('src', 'images/sleeping.jpg');
+                })
+            });
+            </script>
+
+        <button id="btn-attacking" class="btn">Attacking!</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('#btn-attacking').btn();
+            </script>
+        <script>
+            $(function(){
+                $('#btn-attacking').on('click', function(){
+                    $('img').attr('src', 'images/attacking.jpg');
+                })
+            });
+            </script>
+
+        <button id="btn-shocked" class="btn">Shocked!</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('#btn-shocked').btn();
+            </script>
+        <script>
+            $(function(){
+                $('#btn-shocked').on('click', function(){
+                    $('img').attr('src', 'images/shocked.jpg');
+                })
+            });
+            </script>
+
+        <button id="btn-balancing" class="btn">Balancing?</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('#btn-balancing').btn();
+            </script>
+        <script>
+            $(function(){
+                $('#btn-balancing').on('click', function(){
+                    $('img').attr('src', 'images/balancing.jpg');
+                })
+            });
+            </script>
+    </section>
+</body>
+</html>
